@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img2 {
+  float: right;
+}
+body{
+    background-color: black;
+}
+p{
+    color: azure;
+}
+div{
+    color: antiquewhite;
+}
+</style>
+</head>
+<body>
+
+
+<p>Here, the floating image is taller than the element containing it, so it overflows outside its container:</p>
+<div>
+<img class="img1" src="./istockphoto-1097490360-612x612.jpg" alt="Pineapple" width="170" height="170">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...</div>
+
+
+
+</body>
+</html>
